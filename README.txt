@@ -8,6 +8,7 @@ To run:
         images/
         cnn_train_test.py
         README.txt
+        versions.py
 
 2. Install packages
     pip install numpy
