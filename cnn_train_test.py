@@ -20,10 +20,10 @@ from torch.utils.data import DataLoader, random_split
 root = "images"
 
 # turn baseline linear model on/off (False means it does not run)
-linear = True
+linear = False
 
 # parameters
-n_epochs = 5#25
+n_epochs = 25
 batch_size_train = 64
 batch_size_test = 1000
 learning_rate = 0.01
@@ -158,7 +158,7 @@ if linear:
     plt.show()
 
 
-exit("ending early for testing")
+# exit("ending early for testing")
 
 ##---------------------##
 ## Build the CNN Model ##
